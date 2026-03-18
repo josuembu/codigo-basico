@@ -1,0 +1,7 @@
+rograma {
+  funcao inicio() {
+    real tempcelsius,tempfahrenheit
+    escreva("digite a temperatura em celsius")
+    leia(tempcelsius)
+    tempfahrenheit=( tempcelsius*9/5)+32
+    escreva("temperatura em fahrenheit:", tempfahrenheit)
