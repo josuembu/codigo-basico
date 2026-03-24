@@ -1,0 +1,10 @@
+funcao inicio() {
+    inteiro N
+
+    escreva("digite numero:")
+    leia(N)
+    se(N % 2==0){
+      escreva(" o numero e par")
+    }senao{
+      escreva(" o numero e impar")
+    }
