@@ -1,0 +1,11 @@
+uncao inicio() {
+    inteiro n
+    
+    escreva("digite o numero:")
+
+    leia(n)
+    se(n>=0){
+      escreva("positivo")
+    }senao{
+      escreva("negativo")
+    }
