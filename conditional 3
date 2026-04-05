@@ -1,0 +1,15 @@
+uncao inicio() {
+    real nota1,nota2,notalf,frequencia
+    escreva("digite a primeira nota ")
+    leia(nota1)
+    escreva("digite a segunda nota ")
+    leia(nota2)
+    notalf=nota1+nota2
+    escreva("digite a pourcentagem de frequencia")
+    leia(frequencia)
+
+    se( notalf>=60 e frequencia>=75){
+      escreva("aprovado")
+    }senao{
+      escreva("reprovado")
+    }
