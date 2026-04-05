@@ -1,0 +1,12 @@
+eal valor1,valor2,resultado
+    escreva("digite o primeiro valor")
+    leia(valor1)
+    escreva("digite o segund0 valor")
+    leia(valor2)
+    resultado=valor1*valor2
+    se(resultado>50){
+      escreva(" a metade do resultado",resultado/2)
+    }senao{
+      escreva("  o dobre do resultado",resultado*2)
+    }
+  
