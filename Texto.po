@@ -1,0 +1,9 @@
+inclua biblioteca Texto
+-->tx
+	
+	funcao inicio()
+	{
+	cadeia x="josue"
+	escreva(x)
+	x=tx.caixa_alta(x)
+	escreva(x)
