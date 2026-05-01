@@ -1,0 +1,10 @@
+inclua biblioteca Texto-->t
+	
+	
+	funcao inicio()
+	{
+	cadeia nome = "josue"
+		
+		
+		nome=t.preencher_a_esquerda('a',10,nome)
+		escreva(nome)
