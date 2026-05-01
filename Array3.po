@@ -1,0 +1,28 @@
+programa
+{
+//Leia 15 números entre 1 e 10 (valores fora desse intervalo não devem ser
+//armazenados e o valor de entrada deve ser pedido novamente até que esteja
+//nesse intervalo). Ao final, mostre quantas vezes cada número apareceu.
+	
+	funcao inicio()
+	{
+	inteiro i,num,contador[11]
+	para(i=1;i<10;i++){
+		contador[i]=0
+	}
+	para(i=1;i<=15;i++){
+		escreva("digite um numero entre 1 e 10: ")
+		leia(num)
+		enquanto(num<1 ou num>10){
+			escreva("valor digitado e invalido! Digite novamente: ")
+			leia(num)
+		}
+		contador[num]=contador[num]+1
+	}
+	escreva("\nQuantidade de vezes que cada numero apareceu: ")
+	para(i=1;i<=10;i++){
+		escreva("numero",i,": ", contador[i], "vezes\n")
+	}
+		
+	}
+}
