@@ -1,0 +1,26 @@
+
+{
+//Leia dois arrays com 5 números inteiros cada. Após essas leituras, imprima todos
+//os números que estão no array 1 e também no array 2
+	
+	funcao inicio()
+	{
+	inteiro vetor1[5],vetor2[5]
+	inteiro i,j
+	para(i=0;i<5;i++){
+		escreva("digite os numeros do vetor1: ")
+		leia(vetor1[i])
+	}
+	para(i=0;i<5;i++){
+		escreva("digite os numeros do vetor2: ")
+		leia(vetor2[i])
+		
+
+		
+	}
+	escreva("\nNumeros que estao nos dois vetores: ")
+	para(i=0;i<5;i++){
+		para(j=0;j<5;j++){
+			se(vetor1[i]==vetor2[j]){
+				escreva(vetor1[i]," ")
+			
