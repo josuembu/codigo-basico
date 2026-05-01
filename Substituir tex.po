@@ -1,0 +1,11 @@
+inclua biblioteca Texto-->t
+	
+	
+	funcao inicio()
+	{
+	cadeia nome = "josue"
+		
+		escreva(nome)
+		nome=t.substituir(nome, "josue", "wallace")
+		escreva(nome)
+	}
