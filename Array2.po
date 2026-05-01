@@ -1,0 +1,21 @@
+{//Escreva um programa que leia 10 números inteiros. Ao final, o programa deve
+//digitar a quantidade de números pares e imprimir cada um dos valores pares
+//existentes no vetor.
+	
+	funcao inicio()
+	{
+	inteiro vetor[10]
+	inteiro i,contador_pares=0
+	para(i=0;i<10;i++){
+		escreva("digite o ",i+1,"o numero: ")
+		leia(vetor[i])
+	}
+	escreva("\nNumero pares encontrados:\n")
+	para(i=0;i<10;i++){
+		se(vetor[i]%2==0){
+			escreva(vetor[i]," ")
+			contador_pares++
+		}
+	}
+	escreva("\nquantidade de numero pares:", contador_pares,"\n")
+	
