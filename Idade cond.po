@@ -1,0 +1,12 @@
+funcao inicio()
+	{
+	inteiro idade
+	escreva("digite a sua idade:")
+	leia(idade)
+	se(idade<18){
+		escreva("\nVoce e menor idade")
+	}
+	senao{
+		escreva("\nVoce e maior idade")
+	}
+		
