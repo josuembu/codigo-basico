@@ -1,0 +1,14 @@
+funcao inicio()
+	{ 
+	inteiro num=0,vetor[14] 	
+	inteiro i
+	para(i=0;i<14;i++){
+		escreva("\nDigite um numero:")
+		leia(vetor[i])
+	}
+	para(i=0;i<14;i++){
+		se(vetor[i]>num){
+			num=vetor[i]
+		}
+	}
+	escreva(num)
