@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero[10],i,media,menor=999,soma=0,maior=0
+		para(i=0;i<10;i++){
+			escreva("digite um numero:")
+			leia(numero[i])
+			soma=soma+numero[i]
+		}
+		para(i=0;i<10;i++){
+			se(numero[i]>maior){
+				maior=numero[i]
+			}
+		}
+		para(i=06;i<10;i++){
+			se(numero[i]<menor){
+				menor=numero[i]
+			}
+		}
+		media=soma/10
+		escreva("\nO maior numero digitado foi",maior)
+		escreva("\nO nenor numero digitado foi",menor)
+		escreva("\na soma foi ",soma)
+		escreva("\na media foi",media)
+		
+	}
+}
