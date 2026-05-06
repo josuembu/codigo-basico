@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro vetor[5],i
+		para(i=0;i<5;i++){
+			escreva("\ndigite um numero: ")
+			leia(vetor[i])
+		}
+		para(i=0;i<5;i++){
+			escreva("\no numero foram digitados no indice",i," é ",vetor[i])
+		}
+	}
+}
