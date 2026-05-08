@@ -1,0 +1,26 @@
+programa
+{
+	inclua biblioteca Util
+-->u
+
+	
+	funcao inicio()
+	{
+	inteiro mat [3][3],linha=0,coluna=0
+	para(linha=0;linha<3;linha++){
+		para(coluna=0;coluna<3;coluna++){
+			mat[linha][coluna]=u.sorteia(1,5)
+		}
+	}
+	para(linha=0;linha<3;linha++){
+		para(coluna=0;coluna<3;coluna++){
+			escreva(mat[linha][coluna]," ")
+		}
+		escreva("\n")
+	}
+	
+	}
+	
+	
+	
+	}
