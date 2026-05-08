@@ -1,0 +1,27 @@
+programa
+{
+	inclua biblioteca Util
+-->u
+
+	
+	funcao inicio()
+	{
+	inteiro mat[4][4],linha,coluna,valorlinha=0,valorcoluna=0
+	para(linha=0;linha<4;linha++){
+		para(coluna=0;coluna<4;coluna++){
+			mat[linha][coluna]=u.sorteia(1,7)
+			se(valorcoluna == 0){
+				valorcoluna++
+			}
+		}
+		valorlinha++
+	}
+	se(valorlinha==valorcoluna){
+		escreva("a matriz foi isso ")
+	}senao{
+		escreva("matriz nao foi isso")
+	}
+	
+	
+	}
+}
