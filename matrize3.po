@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro mat[4][4],linha,coluna
+	para(linha=0;linha<4;linha++){
+		para(coluna=0;coluna<4;coluna++){
+			se(linha==coluna){
+				mat[linha][coluna]=1
+			}
+			senao{
+				mat[linha][coluna]=0
+			}
+		}
+	}
+	para(linha=0;linha<4;linha++){
+		para(coluna=0;coluna<4;coluna++){
+			escreva(mat[linha][coluna]," ")
+		}
+	}
+	escreva("\n")
+	
+	}
+}
