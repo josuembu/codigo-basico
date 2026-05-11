@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro numero[5],i,soma=0
+	para(i=0;i<5;i++){
+		escreva("digite um numero:")
+		leia(numero[i])
+		soma= soma+numero[i]
+	}
+	para(i=0;i<5;i++){
+		escreva(numero[i],"\n")
+	}
+	escreva(" a soma foi : ", soma)
+	
+	}
+}
