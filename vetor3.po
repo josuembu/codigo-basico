@@ -1,0 +1,20 @@
+programa
+{
+	inclua biblioteca Util
+-->u
+
+	
+	funcao inicio()
+	{
+		inteiro numero[10],i,maior=0
+		para(i=0;i<10;i++){
+			numero[i]=u.sorteia(1,12)
+			se(numero[i]>maior){
+				maior=numero[i]
+			}
+		}
+		escreva(" o maior numero foi ", maior)
+			
+			
+	}
+}
