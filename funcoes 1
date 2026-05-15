@@ -1,0 +1,28 @@
+programa
+{
+
+	
+funcao ImprimeResultado(real r){
+		escreva("A media e ",r)
+		
+	}
+	funcao media (real a, real b, real c){
+		real resultado
+		resultado  =(a+b+c)/3
+		ImprimeResultado(resultado)
+		 
+	}
+	
+	funcao inicio()
+	{
+		real x,y,z
+		escreva("digite o 1 numero")
+		leia(x)
+		escreva("digite o 2 numero")
+		leia(y)
+		escreva("digite o 3 numero")
+		leia(z)
+		media(x,y,z)
+		
+    }
+}
