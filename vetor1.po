@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro numero[8],i
+	
+	para(i=0;i<8;i++){
+		escreva("digite um numero ")
+		leia(numero[i])
+		
+	}
+	para(i=7;i>=0;i--){
+		escreva(numero[i])
+		
+	}
+	}
+}
